@@ -1,0 +1,115 @@
+body {/*tampilan untuk tag body*/
+    margin:0;
+    padding:0;
+    background-color: beige;
+}
+h2 { /*tampilan untuk tag h2*/
+   background-color:transparent;
+   color: rgb(62, 112, 179);
+   font-family:sans-serif;
+   text-align: center;
+   width: 45%;
+   margin:auto;
+   padding: 20px;
+   border: 3px solid #333281
+}
+div{
+    margin:auto;
+    margin-right: auto;
+    margin-left: auto;
+    /*width: 500px;
+    border:1px solid #4745e2;*/
+}
+.nav { /*class css tampilan untuk tag nav*/
+   margin:auto;
+   text-align: center; /*teks berada di tengah*/
+   width: 100%;
+   font-family: 'Gill Sans';
+}
+.nav ul { /*css class untuk tampilan tag nav dan ul*/
+   background: mediumpurple;
+   padding: 0px; 
+   list-style: none;
+   position : relative;
+   display: inline-table;
+   width: 100%;
+}
+.nav ul li { /*class css untuk tag nav, ul dan li agr berada di sebelah kanan navbar*/
+   float :right;
+}
+.nav ul li:hover { /*css class saat tag nav, ul, li di tunjuk kursor*/
+   background: rgb(204, 176, 222);
+}
+.nav ul li:hover a { /*css class saat tag nav, ul, li di tunjuk kursor khusus untuk teks ber-link*/
+   color: rgb(1, 30, 46);
+}
+
+.nav ul li a{ /*css class pada tag nav, ul, li khusus untuk tampilan teks ber-link*/
+   display: block;
+   padding : 25px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+table.center{ /*pengaturan tampilan tabel agar posisi di tengah*/
+   margin-top: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+.box{ /*memberi sebuah box untuk sebuah teks*/
+   width: 400px;
+   border:1px solid #4745e2;
+   margin: 15% auto;
+}
+.title{ /*pengaturan tampilan judul yang terdapat didalam box*/
+   background: #3b89ee;
+   color:#fff;
+   text-align: center;
+   font-size: 22px;
+   padding: 4px;
+}
+.khusus{
+   margin: auto;
+}
+.khusus tr td{
+   padding: 4px;
+}
+.kanan{
+   float: right;
+}
+.submit{ /*css class untuk tombol submit pada login*/
+   padding: 8px 10px;
+   background: #fff;
+   color:#4745e2;
+   border:1px solid #4745e2;
+   border-radius: 2px
+}
+.submit:hover{ /*css class untuk tombol submit pada login ketika mouse diarahkan*/
+   background: #4745e2;
+   color:#fff;
+}
+.reset{ /*css class untuk tombol reset pada login*/
+   padding: 8px 10px;
+   background: #fff;
+   color:#4745e2;
+   border:1px solid #4745e2;
+   border-radius: 2px;
+}
+.reset:hover{ /*css class untuk tombol reset pada login ketikan mouse diarahkan*/
+   background: #4745e2;
+   color:#fff;
+}
+.button{  /*css class untuk tombol button*/
+   color:#4745e2;
+   padding:8px 15px;
+   text-align: center;
+   display: inline-block;
+   font-size: 14px;
+   margin:4px 2px;
+   cursor: pointer;
+   background: #fff;
+   border:1px solid #4745e2;
+}
+.button:hover{
+   background: #4745e2;
+   color:#fff;
+}
